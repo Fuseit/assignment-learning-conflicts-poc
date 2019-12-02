@@ -1,0 +1,17 @@
+{
+  "name": "assigned-learning-conflicts",
+  "version": "1.0.0",
+  "description": "POC for using jsonLint to resolve due date conflicts",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "simon.blake@fuseuniversal.com",
+  "license": "ISC",
+  "dependencies": {
+    "json-logic-js": "^1.2.2"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}

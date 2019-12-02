@@ -1,0 +1,38 @@
+{
+  "if": [
+    {
+      "var": "individualAssignment"
+    },
+    {
+      "var": "individualAssignment.dueDate"
+    },
+    {
+      "reduce": [
+        {
+          "var": "audienceAssignments"
+        },
+        {
+          "if": [
+            {
+              "<": [
+                {
+                  "var": "current.dueDate"
+                },
+                {
+                  "var": "accumulator"
+                }
+              ]
+            },
+            {
+              "var": "current.dueDate"
+            },
+            {
+              "var": "accumulator"
+            }
+          ]
+        },
+        "No dates"
+      ]
+    }
+  ]
+}
