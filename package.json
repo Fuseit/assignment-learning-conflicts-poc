@@ -9,7 +9,7 @@
   "author": "simon.blake@fuseuniversal.com",
   "license": "ISC",
   "dependencies": {
-    "json-logic-js": "^1.2.2"
+    "json-logic-js": "^2.0.1"
   },
   "devDependencies": {
     "jest": "^24.9.0"
