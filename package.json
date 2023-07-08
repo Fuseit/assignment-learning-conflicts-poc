@@ -12,6 +12,6 @@
     "json-logic-js": "^1.2.2"
   },
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^29.6.1"
   }
 }
