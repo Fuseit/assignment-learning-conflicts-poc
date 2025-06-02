@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repo is not in use and has been deprecated. It will eventually be deleted.
+
 # assignment-learning-conflicts-poc
 
 Repo using Nodejs to demonstrate a proof of concept of using JsonLogic to serialise the rules for resolving due date conflicts in assigned learning. 
